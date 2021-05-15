@@ -33,4 +33,9 @@ public class TimeTable extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),wedTT.class));
         finish();
     }
+
+    public void backthu1(View view) {
+        startActivity(new Intent(getApplicationContext(),thuTT.class));
+        finish();
+    }
 }
