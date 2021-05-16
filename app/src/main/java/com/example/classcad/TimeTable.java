@@ -38,4 +38,9 @@ public class TimeTable extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),thuTT.class));
         finish();
     }
+
+    public void backfri1(View view) {
+        startActivity(new Intent(getApplicationContext(),friTT.class));
+        finish();
+    }
 }
