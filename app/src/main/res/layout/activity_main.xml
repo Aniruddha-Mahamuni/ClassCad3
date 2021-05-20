@@ -70,15 +70,16 @@
         android:layout_marginBottom="12dp"
         android:text="Results"
         app:backgroundTint="#009688"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/goMarks"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="goRes"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/goMarks"
         android:layout_width="183dp"
         android:layout_height="103dp"
         android:layout_marginBottom="36dp"
@@ -89,10 +90,11 @@
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintVertical_bias="0.992"
+        android:onClick="marks1"/>
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/vms"
         android:layout_width="183dp"
         android:layout_height="103dp"
         android:layout_marginStart="17dp"
@@ -104,8 +106,9 @@
         app:layout_constraintBottom_toTopOf="@+id/logout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintStart_toEndOf="@+id/goMarks"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        android:onClick="VMSBTE"/>
 
     <TextView
         android:id="@+id/puName"

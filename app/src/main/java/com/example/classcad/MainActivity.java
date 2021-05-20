@@ -4,6 +4,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -55,4 +56,25 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),TimeTable.class));
         finish();
     }
+
+    public void VMSBTE(View view) {
+        goToUrl ( "https://msbte.org.in/");
+    }
+
+    public void marks1(View view) {
+        goToUrl ( "https://msbte.org.in/CORAGLKW20LIVEResult/frmCORWIN20ALKDisplay.aspx");
+    }
+
+    public void goRes(View view) {
+        goToUrl ( "https://msbte.org.in/CORAGLKW20LIVEResult/frmCORWIN20ALKDisplay.aspx");
+    }
+
+    private void goToUrl(String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+
+
 }
