@@ -10,21 +10,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ClassCad">
-        <activity android:name=".friTT"></activity>
+        android:theme="@style/Theme.ClassCad"
+        android:name="com.example.classcad.context.ApplicationContext">
+        <activity android:name=".activity.TestActivity"></activity>
+        <activity android:name=".activity.AddAttandanceSessionActivity" />
+        <activity android:name=".activity.AddAttendanceActivity" />
+        <activity android:name=".activity.AddFacultyActivity" />
+        <activity android:name=".activity.AddStudentActivity" />
+        <activity android:name=".activity.MenuActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".friTT" />
         <activity android:name=".thuTT" />
         <activity android:name=".wedTT" />
         <activity android:name=".tueTT" />
         <activity android:name=".monTT" />
         <activity android:name=".TimeTable" />
         <activity android:name=".Login" />
-        <activity android:name=".Register">
+        <activity android:name=".Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Register" />
         <activity android:name=".MainActivity" />
 
         <meta-data

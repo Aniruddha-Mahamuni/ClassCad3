@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonViewstudent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonaddstudent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-48dp"
+        android:background="@drawable/roundedbutton"
+        android:text="View student"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonviewfaculty"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Logout"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonviewfaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="144dp"
+        android:layout_alignLeft="@+id/buttonaddfaculty"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="-194dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/roundedbutton"
+        android:text="View staff"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonaddfaculty"
+        android:layout_width="187dp"
+        android:layout_height="146dp"
+        android:layout_alignLeft="@+id/buttonViewstudent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Add staff"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonaddstudent"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonViewstudent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Add student"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/attendancePerStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonViewstudent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Attendance Of Student"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="260dp"
+        android:layout_height="201dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/res" />
+
+</RelativeLayout>

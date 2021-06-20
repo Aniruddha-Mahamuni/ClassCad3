@@ -22,46 +22,30 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="183dp"
-        android:layout_height="103dp"
-        android:layout_marginBottom="12dp"
-        android:text="Profile"
-        app:backgroundTint="#3E2F2F"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
         android:id="@+id/button2"
-        android:layout_width="183dp"
-        android:layout_height="103dp"
+        android:layout_width="389dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginBottom="12dp"
+        android:onClick="InitiateAttendApp"
         android:text="Attendance"
         app:backgroundTint="#F44336"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
-        app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="183dp"
-        android:layout_height="103dp"
+        android:layout_width="184dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="152dp"
         android:onClick="TT"
         android:text="Time Table"
         app:backgroundTint="#2196F3"
         app:layout_constraintBottom_toTopOf="@+id/logout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.072" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button4"
@@ -115,14 +99,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name: "
+        android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/puEmail"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.631" />
+        app:layout_constraintVertical_bias="0.625" />
 
     <TextView
         android:id="@+id/puEmail"
@@ -130,22 +115,23 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
         android:text="Email:"
+        android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/puEnroll"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.972" />
+        app:layout_constraintVertical_bias="0.986" />
 
     <TextView
         android:id="@+id/puEnroll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="4dp"
         android:text="Enrollment No:"
+        android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
@@ -197,13 +183,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
         android:text="Enrollment no:  "
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toStartOf="@+id/puEnroll"
-        app:layout_constraintHorizontal_bias="0.039"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/puEnroll"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
