@@ -30,7 +30,7 @@ public class AddStudentActivity extends AppCompatActivity {
     EditText textaddress;
     Spinner spinnerbranch,spinneryear;
     String userrole,branch,year;
-    private String[] branchString = new String[] { "COE"};
+    private String[] branchString = new String[] { "CO"};
     private String[] yearString = new String[] {"FY","SY","TY"};
 
     @Override

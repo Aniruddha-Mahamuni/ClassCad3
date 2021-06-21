@@ -45,7 +45,7 @@ public class ViewAttendancePerStudentActivity extends Activity {
 
             DBAdapter dbAdapter = new DBAdapter(ViewAttendancePerStudentActivity.this);
             StudentBean studentBean = dbAdapter.getStudentById(attendanceBean.getAttendance_student_id());
-            users = attendanceBean.getAttendance_student_id() + ".     " + studentBean.getStudent_firstname() + "," + studentBean.getStudent_lastname() + "                  " + attendanceBean.getAttendance_session_id();
+            users = attendanceBean.getAttendance_student_id() + ".     " + studentBean.getStudent_firstname() + "  " + studentBean.getStudent_lastname() + "                  " + attendanceBean.getAttendance_session_id();
             attendanceList.add(users);
         }
 

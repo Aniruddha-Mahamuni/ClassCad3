@@ -46,9 +46,9 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
     Button viewAttendance;
     Button viewTotalAttendance;
     Spinner spinnerbranch,spinneryear,spinnerSubject;
-    String branch = "cse";
-    String year = "SE";
-    String subject = "SC";
+    String branch = "CO";
+    String year = "TY";
+    String subject = "MAD";
 
     private String[] branchString = new String[] { "CO"};
     private String[] yearString = new String[] {"FY","SY","TY"};

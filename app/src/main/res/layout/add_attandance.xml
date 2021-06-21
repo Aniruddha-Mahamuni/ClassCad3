@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView1"
@@ -22,13 +22,13 @@
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="124dp"
         android:layout_toRightOf="@+id/textView1"
-        android:foreground="@color/white" />
+        android:background="#FFFFFF" />
 
     <TextView
         android:id="@+id/textView2"
@@ -46,23 +46,23 @@
 
     <Spinner
         android:id="@+id/spinnerSE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
         android:layout_below="@+id/spinneryear"
         android:layout_alignLeft="@+id/spinneryear"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="24dp"
-        android:foreground="@color/white" />
+        android:background="#FFFFFF" />
 
     <Spinner
         android:id="@+id/spinneryear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
         android:layout_below="@+id/spinner1"
         android:layout_alignLeft="@+id/spinner1"
         android:layout_marginLeft="-2dp"
         android:layout_marginTop="27dp"
-        android:foreground="@color/white" />
+        android:background="#FFFFFF" />
 
     <EditText
         android:id="@+id/DateEditText"

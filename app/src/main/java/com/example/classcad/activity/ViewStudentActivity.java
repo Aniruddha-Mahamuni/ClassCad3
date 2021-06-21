@@ -20,8 +20,8 @@ public class ViewStudentActivity extends Activity {
 
     Spinner spinnerbranch, spinneryear;
     String userrole, branch, year;
-    private String[] branchString = new String[]{"cse"};
-    private String[] yearString = new String[]{"SE", "TE", "BE"};
+    private String[] branchString = new String[]{"CO"};
+    private String[] yearString = new String[]{"FY", "SY", "TY"};
 
     Button submit;
 
